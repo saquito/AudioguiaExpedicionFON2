@@ -1,0 +1,162 @@
+body {
+  background-position: left top;
+  background-image: url(background.jpg);
+
+  background-size: auto;
+  background-color:#ffffff;	
+}
+
+.enlace {
+	color:#FF7777;
+}
+
+.container {
+	perspective: 100px;
+	height: 100vh;
+	overflow: auto;
+	font-family:verdana;
+}
+
+.important {
+	background:#cc0000;
+	padding:1em;
+	border:solid;
+	border-width:2px;
+	font-weight: bold;
+	text-align:center;
+	font-size:1.5em;
+}
+
+.block {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-style: solid;
+  background-color: #444444bb;
+  margin:0 auto;
+  margin-top:50px;
+  width:60%;
+  padding:2em;
+  font-size:1.5em;
+  -webkit-transform: translateZ(0px);
+	transform: translateZ(0px);
+}
+
+.title {
+	background-color: #FF8800;
+	font-size:2.25em;
+	padding-left:1em;
+	padding-top:0.2em;
+	padding-bottom:0.2em;
+	font-weight: bold;
+}
+
+.system_name {
+	border-style:solid;
+	border-color:#aaffaa;
+	background-color: #118811;
+	text-transform: uppercase;
+	font-size:1.25em;
+	padding-left:0.25em;
+	padding-top:0.15em;
+	padding-bottom:0.1em;
+	font-weight: bold;
+	color:white;
+}
+
+.system {
+	color: white;
+	background-color: #3333FF;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size:1em;
+	padding: 0.5em;
+	display: inline-block;
+	margin: 0%;
+}
+
+.block_wp {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-style: solid;
+  background-color: #444444bb;
+  margin:0 auto;
+  /*margin-top:50px;*/
+  width:50%;
+  padding:2em;
+  font-size:1.3em;
+  -webkit-transform: translateZ(0px);
+	transform: translateZ(0px);
+	margin-top: 2%;
+}
+
+.text {
+	color: white;
+}
+
+td {
+	padding: 3px;
+	margin: 3px;
+	text-align: center;
+	color: white;
+	font-size:25px;
+}
+
+.parallax {
+  perspective: 1px;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+  font-family:verdana;
+}
+
+.fondo {
+	background-color: #000000;
+    position: absolute;
+    top: 0;
+    left: 0;
+	height: 100%;
+	width: 100%;
+	  -webkit-transform: translateZ(-1px);
+	transform: translateZ(-1px);
+}
+.imagen_fondo {
+	width:100%;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
+
+/*
+
+div#fondo {
+	height: 100vh;
+	background: yellow;
+}
+
+.parallax {
+  perspective: 1px;
+  height: 100vh;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+.parallax__layer {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+.parallax__layer--base {
+  transform: translateZ(0);
+}
+.parallax__layer--back {
+  transform: translateZ(-1px);
+} */
