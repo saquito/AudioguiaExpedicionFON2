@@ -127,7 +127,14 @@ td {
 	width:100%;
 }
 
-.center {
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+
+.imgmap {
   display: block;
   margin-left: auto;
   margin-right: auto;
