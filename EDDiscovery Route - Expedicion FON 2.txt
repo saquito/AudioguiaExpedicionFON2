@@ -1,15 +1,15 @@
-Naunin		Salida a las 21h 
-IC 1287 Sector BQ-Y d9	880,56	Visita al planeta 3 a. Estación en asteroide en sistema Mammon 
-HR 6164	907,53	The View, uno de los puntos turísticos más famosos 
-HD 175876	1580,85	Anillo de 12 ly de radio 
-Droju UA-D d13-9	1624,56	Vista del ojo de Thor 
-Traikaae CH-Y c10	609,08	El laberinto: planeta acuoso con luna que asemeja laberintos. Cerca está Admusen Terminal 
-Lagoon Sector NI-S b4-10	381,36	Amudsen Terminal 
-Trifid Sector OI-S b4-12	732,19	Lucifer's Lair 
-Eagle Sector IR-W d1-117	2110,41	Eagle's Landing 
-Pru Aescs HW-S b31-2	2198,84	Conflux Abandoned Settlements 
-Skaude AA-A h294	2650,01	Skaude's Collection of Wonders 
-Skaude AA-A h216	663,84	Garmany's Treasure 
-Clooku QS-S d4-145	2169,40	Roseum Somnium 
-Gru Hypue AA-A g4	1394,12	Jo Ella's Flares 
-Blaa Phoe NC-D d12-230	1936,14	Espiral de la muerte
+Naunin
+IC 1287 Sector BQ-Y d9
+HR 6164
+HD 175876
+Droju UA-D d13-9
+Traikaae CH-Y c10
+Lagoon Sector NI-S b4-10
+Trifid Sector OI-S b4-12
+Eagle Sector IR-W d1-117
+Pru Aescs HW-S b31-2
+Skaude AA-A h294
+Skaude AA-A h216
+Clooku QS-S d4-145
+Gru Hypue AA-A g4
+Blaa Phoe NC-D d12-230
