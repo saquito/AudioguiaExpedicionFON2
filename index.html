@@ -2,7 +2,6 @@
 <html>
 <head>
 <link rel="stylesheet" href="expedicion.css">
-<script src="jquery-3.3.1.min.js"></script>
 </head>
 <body>
 
@@ -20,8 +19,9 @@ Para investigar este misterio el AOSS ha creado la Iniciativa Norma Arm, una mis
 <div class="block">
 <p class="title">Fase 1: El viaje a Norma Arm</p>
 <p class="text">En esta primera fase se establecen 14 puntos de inter&eacute;s que visitar en nuestro camino a Norma Arm. Hemos calculado hacerlo en un mes yendo a un ritmo tranquilo (aunque se puede hacer mucho m&aacute;s r&aacute;pido en modo heavy, tambi&eacute;n llamado modo Darthluis). Pero los tiempos no est&aacute;n escritos en piedra. La idea es pararse en cada punto, explorar los alrededores y, si se encuentra algo interesante, compartirlo con los dem&aacute;s.</p>
-<p class="text important" id="audioguia">
-Hemos creado en Elite Dangerous Star Map (EDSM) una expedici&oacute;n. Es MUY importante que os apunt&eacute;is. Si us&aacute;is el ED Market Connector podr&eacute;is actualizar de manera autom&aacute;tica el progreso de la expedici&oacute;n sincroniz&aacute;ndolo con EDSM. <a  class="enlace" href="https://www.edsm.net/en/expeditions/summary/id/67/name/The+Norma+Arm+Initiative">&Eacute;ste es el enlace a la Expedici&oacute;n</a>.</p>
+<p class="text important" id="edsm">
+<a class="important_link" href="https://www.edsm.net/en/expeditions/summary/id/67/name/The+Norma+Arm+Initiative">
+Hemos creado en Elite Dangerous Star Map (EDSM) una expedici&oacute;n. Es MUY importante que os apunt&eacute;is. Si us&aacute;is el ED Market Connector podr&eacute;is actualizar de manera autom&aacute;tica el progreso de la expedici&oacute;n sincroniz&aacute;ndolo con EDSM. &Eacute;ste es el enlace a la Expedici&oacute;n</a>.</p>
 <p class="text">
 Para aquellos de vosotros que us&eacute;is el EDDiscovery, ten&eacute;is una ruta directamente importable que os pode&iacute;s descargar haciendo click <a  class="enlace" href="EDDiscovery Route - Expedicion FON 2.txt">aqu&iacute;</a>. Tan solo hay que descargar el fichero e importarlo en EDDiscovery desde la pesta&ntilde;a <b>Expedition</b> y seleccionar <b>Import File</b>. Una vez cargado el fichero, pulsar el bot&oacute;n <b>Show on 3D Map</b>. Eso os permitir&aacute; ver la ruta sobre el mapa 3D de la galaxia.</p>
 <p class="text">
@@ -72,17 +72,33 @@ Cualquier duda, no dud&eacute;is en preguntar por el canal de Telegram o el Disc
 
 </div>
 <script>
+var edsm = document.getElementById('edsm');
 var audioguia = document.getElementById('audioguia');
 
 audioguia.style.cursor = 'pointer';
-audioguia.onclick = function() {
-    window.location.href = "audioguia_expedicion_fon_2.html";
-};
+
 audioguia.onmouseover = function() {
     this.style.backgroundColor = 'red';
 };
 audioguia.onmouseout = function() {
     this.style.backgroundColor = '';
+};
+
+edsm.onclick = function() {
+    window.location.href = "https://www.edsm.net/en/expeditions/summary/id/67/name/The+Norma+Arm+Initiative";
+};
+
+edsm.style.cursor = 'pointer';
+
+edsm.onmouseover = function() {
+    this.style.backgroundColor = 'red';
+};
+edsm.onmouseout = function() {
+    this.style.backgroundColor = '';
+};
+
+audioguia.onclick = function() {
+    window.location.href = "audioguia_expedicion_fon_2.html";
 };
 </script>
 </body>
