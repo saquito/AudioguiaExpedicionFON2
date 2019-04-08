@@ -27,6 +27,11 @@ body {
 	font-size:1.5em;
 }
 
+.important_link {
+	color:#ffffffff;
+	text-decoration: none;
+}
+
 .block {
   top: 0;
   right: 0;
